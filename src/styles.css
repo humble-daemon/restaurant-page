@@ -1,0 +1,45 @@
+body{
+    background-color:cornflowerblue;
+    font-family: sans-serif;
+}
+header > p{
+    font-weight: 900;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+nav button{
+    outline: none;
+    border: none;
+    padding: 1em;
+    font-size: inherit;
+    /* background-color:rgb(255, 222, 171); */
+}
+
+#content{
+    background-color: whitesmoke;
+    margin-inline: 15%;
+    margin-top: 2em;
+}
+
+.home, .about, .menu{
+    padding: 1em;
+}
+.dishes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.dish{
+    border: solid 1px black;
+    padding: 1em;
+}
+
+.food_image{
+    height: 200px;
+    width: auto;
+}
